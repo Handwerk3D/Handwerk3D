@@ -1,6 +1,8 @@
 #ifndef INCLUDE_VECTOR3_H
 #define INCLUDE_VECTOR3_H
 
+
+
 namespace Handwerk3D
 {
 	namespace Math
@@ -17,8 +19,16 @@ namespace Handwerk3D
 			Vector3 operator=(Vector3&);
 			Vector3 operator+(Vector3&);
 			Vector3 operator-(Vector3&);
-			Vector3 operator*(Vector3&);
-			Vector3 operator/(Vector3&);
+			Vector3 operator*(float);
+			Vector3 operator/(float);
+			Vector3 operator+=(Vector3&);
+			Vector3 operator-=(Vector3&);
+			Vector3 operator*=(float);
+			Vector3 operator/=(float);
+
+			// other
+			float mag();
+			void normalize();
 		};
 	}
 }

@@ -7,3 +7,5 @@ project ("Handwerk3D")
 
 # Include sub-projects.
 add_subdirectory ("MathEngine")
+target_include_directories(MathEngine PRIVATE "MathEngine/include")
+target_include_directories(MathEngine PRIVATE "MathEngine/src")

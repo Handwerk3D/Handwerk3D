@@ -25,6 +25,8 @@ namespace Handwerk3D
 			Vector3 operator-=(Vector3&);
 			Vector3 operator*=(float);
 			Vector3 operator/=(float);
+			bool operator==(Vector3&);
+			bool operator!=(Vector3&);
 
 			// other
 			float mag();

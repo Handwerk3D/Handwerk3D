@@ -66,6 +66,16 @@ namespace Handwerk3D
 			return *this = (*this) / operand;
 		}
 
+		bool Vector3::operator==(Vector3& other)
+		{
+			return other.x == x && other.y == y && other.z == z;
+		}
+
+		bool Vector3::operator!=(Vector3& other)
+		{
+			return !(*this == other);
+		}
+
 		// other
 		float Vector3::mag()
 		{

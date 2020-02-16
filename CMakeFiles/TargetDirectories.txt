@@ -1,0 +1,4 @@
+C:/Users/hamor/source/repos/Handwerk3D/CMakeFiles/MathEngine.dir
+C:/Users/hamor/source/repos/Handwerk3D/CMakeFiles/INSTALL.dir
+C:/Users/hamor/source/repos/Handwerk3D/CMakeFiles/ALL_BUILD.dir
+C:/Users/hamor/source/repos/Handwerk3D/CMakeFiles/ZERO_CHECK.dir

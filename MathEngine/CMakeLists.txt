@@ -2,12 +2,7 @@
 # project specific logic here.
 #
 
-cmake_minimum_required (VERSION 3.8)
-
-# project info
-project (MathEngine VERSION 0.0.0)
-
-# Add source to this project's executable.
-add_library (MathEngine SHARED src/Vector3.cpp)
-
-# TODO: Add tests and install targets if needed.
+cmake_minimum_required (VERSION 3.9)
+target_include_directories(Handwerk3D PRIVATE MathEngine/include)
+target_include_directories(Handwerk3D PRIVATE MathEngine/src)
+target_sources(Handwerk3D PRIVATE "MathEngine/src/Vector3.cpp")

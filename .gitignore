@@ -1,2 +1,7 @@
 .vs/
 out/
+CMakeCache.txt
+*.vcxproj
+*.filters
+*.sln
+dummy.cpp
